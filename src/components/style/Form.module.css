@@ -1,0 +1,103 @@
+
+.shape{
+    margin: 2rem 0;
+    padding:0;
+    font-family: sans-serif;
+
+    width: 50rem;
+    padding: 40px;
+    position: relative;
+    background-color: rgba(10, 10, 10, 0.9);
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.MTitle {
+    margin-left: 0 0 20px;
+    padding: 0;
+    position: relative;
+    font-family: 'Niconne', cursive;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.637);
+    font-weight: bold;
+    font-size: 50%;
+    text-align: center;
+    top:0;
+}
+
+.shape .userbox{
+    position: relative;
+    margin-top: 20px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+}
+
+.userbox .label {
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.shape .userbox .input:valid ~ .label,
+.shape .userbox .input:focus ~ .label{
+    font-size: 14px;
+    top: -20px;
+    color: rgb(247, 160, 84);
+}
+
+button {
+    color: rgb(247, 160, 84);
+    border: 0.2px solid white;
+    border-radius: 5px;
+    background-color:  transparent;
+    font-size: 14px;
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+button:hover{
+    background-color: rgba(247, 160, 84, 0.6);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(247, 160, 84, 0.8);
+    cursor: pointer;
+}
+
+.Err{
+    margin: 0;
+    color: red;
+}
+
+.recieve{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    margin: auto;
+}

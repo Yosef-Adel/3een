@@ -1,0 +1,24 @@
+.cardContainer {
+    width: 100%;
+    padding-top: 10rem;
+    text-align: center;
+
+    background-color: rgba(10,10,10,0.9);
+}
+
+.cardsRow {
+   display: flex;
+   justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.cardContainer h1 {
+    color: rgb(247, 160, 84);
+    font-size: 3.5rem;
+    font-weight: 400;
+    
+    text-transform: capitalize;
+ 
+    transition: .5s ease;
+}

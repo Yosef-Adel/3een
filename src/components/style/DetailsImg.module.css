@@ -1,0 +1,65 @@
+.slider {
+    position: relative;
+    height: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 20px;
+    height: 550px;
+}
+
+.image:hover{
+    transform: rotate(90);
+    filter: blur(20%);
+}
+
+.rightarrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    color: rgba(255, 255, 255, 0.868);
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(150,150,150,0.2);
+    padding: 10px;
+    border-radius: 15%;
+    font-size: 5rem;
+}
+
+.leftarrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    color: rgba(255, 255, 255, 0.868);
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(150,150,150,0.2);
+    padding: 10px;
+    border-radius: 15%;
+    align-self: center;
+    font-size: 20rem;
+}
+
+.leftarrow:hover, 
+.rightarrow:hover{
+    color: rgb(247, 160, 84);
+    background-color: rgba(10,10,10,0.5);
+}
+
+@media screen and (max-width: 500px){
+    .image {
+        height: 350px;
+    }
+   
+    .leftarrow {
+        left: 16px;
+    }
+
+    .rightarrow{
+        right: 16px;
+    }
+}
+

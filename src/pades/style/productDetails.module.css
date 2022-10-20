@@ -1,0 +1,193 @@
+.productDetailesCon {
+    padding: 20vh 10rem 10vh 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 80vh;
+    background-color: rgba(10,10,10,0.9);
+}
+
+.imgContainer{
+    width: 45rem;
+}
+.imgContainer img {
+    width: 100%;
+}
+.details  {
+    text-align: center;
+    text-transform: uppercase;
+    transition: .5s ease;
+    padding-bottom: 0;
+    width: 45rem;
+}
+.details h1 {
+    position: relative;
+    color: rgb(247, 160, 84);
+    font-size: 5rem;
+    font-weight: 400;
+}
+.details p {
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 3rem;
+}
+.price {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgba(247, 160, 84, 0.267);
+    padding: 1rem;
+    width: 95%;
+
+    margin-bottom: 2rem;
+}
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+  }
+
+  .container h4 {
+        color: white;
+        font-weight: 200;
+        font-size: 2rem;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+.size p {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.opt {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.control {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 20px;
+    background: #d1d1d1;
+    color: #333;
+    border-radius: 5px;
+    width: 80%;
+    min-width: 100px;
+    margin: auto;
+    
+}
+
+.control p {
+    cursor:pointer;
+    margin: auto;
+    font-size: 2rem;
+    color: #333;
+}
+
+.fix {
+    font-size: 4rem;
+    cursor: pointer;
+}
+.btn ,.btns {
+    width: 70%;
+    margin: auto;
+}
+
+.btn button,
+.btns button {
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    background-color: #e22a2a;
+    color: #fff;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: .03em;
+    padding: 15px 31px ;
+    font-size: 2rem;
+    transition: .5s ease;
+}
+
+.btns .soldout{
+    background-color: black;
+}
+.btn button:hover {
+    opacity: .7;
+    background-color: #e22a2a;
+}
+.fixCon {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fixCon div {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.soldout {
+    background-color: #333;
+}
+
+.cartmssg{
+    text-align: center;
+   margin-top: 5px;
+   font-size: 15px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 100;
+   color: #ccc;
+   font-style: italic;
+   text-transform: none;
+   animation: cssAnimation 5s 1;
+   opacity: 0; 
+}
+@keyframes cssAnimation {
+    0%  { opacity: 1}
+    80% { opacity: 0}
+  }
+
+
+@media screen and (max-width: 500px) {
+    .details h1 { 
+        font-size: 4rem;
+        margin-top: 10px;
+    }
+    .container h4 {
+        font-weight: 200;
+        font-size: 2rem;
+  }
+  .cartmssg{
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}

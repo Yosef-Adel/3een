@@ -1,0 +1,93 @@
+.card {
+width: 30rem;
+margin: 2rem 0;
+cursor: pointer;
+}
+.imgContainer,
+.imgContainerSold  {
+    height: 40rem;
+    width: 30rem;
+    overflow: hidden;
+   
+}
+
+.imgContainer img,
+.imgContainerSold img {
+    width: 100%;
+    transition: all .5s;
+    filter: blur(100%);
+}
+.cardInfo {
+    text-align: center;
+    color: rgb(247, 160, 84);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+    transition: .5s ease;
+}
+.cardInfo span {
+    color: rgba(225,225,225,0.678);
+}
+
+.imgContainer img:hover {
+    transform: scale(1.2);
+    opacity: .5;
+}
+.imgContainerSold {
+    position: relative;
+}
+.imgContainerSold img {
+    opacity: .5;
+    filter: blur(1px);
+}
+
+.soldOut {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    border-radius: 5px;
+
+    top: 15rem;
+    left: 4rem;
+}
+.soldOut {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: .5s ease;
+
+}
+.soldOut p {
+    align-items: center;
+    align-self: center;
+
+    background-color: transparent;
+    font-size: 40px;
+    
+}
+
+.sold {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 20px;
+    left: 10px;
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: .5s ease;
+
+}
+.sold p {
+    margin-left: 5px;
+}

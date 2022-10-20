@@ -1,0 +1,42 @@
+.itemContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: .5px rgb(225,225,225) solid;
+    border-left:none ;
+    border-right:none ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+.imgContainer {
+    width: 20rem;
+}
+.imgContainer img {
+    width: 100%;
+}
+.title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.control {
+    width: 20%;
+}
+.control button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.control button:hover{
+    filter: invert(0.5);
+}
+.itemContainer p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}

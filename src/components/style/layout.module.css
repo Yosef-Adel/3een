@@ -1,0 +1,56 @@
+
+.layout {
+    height: 92vh;
+    position: relative;
+    background-image: linear-gradient(
+    to right bottom ,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)), 
+    url("shot2.jpg");
+    background-size: cover;
+    background-position: 0 -2%;
+    padding-top: 10vh;
+    overflow: hidden;
+    background-repeat: no-repeat;    
+}
+.textBox {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    color: rgb(80, 80, 80);
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: rgb(200, 200, 200);;
+    translate: transform(20px,0px);
+}
+.arrow {
+    margin-left: .5rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .layout {
+        background-position: 0 -15%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .layout {
+        background-image: linear-gradient(
+            to right bottom ,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)), 
+            url("shot1.jpg");;
+    }
+}

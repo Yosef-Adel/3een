@@ -1,0 +1,205 @@
+.cartContainer {
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    min-height: 80vh;
+    background-color: rgba(10,10,10,0.9);
+}
+.cartContainer h1 {
+    text-align: center;
+    color: rgb(247, 160, 84);
+    font-size: 5rem;
+    font-weight: 50;
+    text-transform: uppercase;
+    transition: .5s ease;
+    padding-bottom: 0;
+}
+.productContainer {
+    width: 50rem;
+}
+
+.cartContainer p {
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10rem;
+    margin-left: 5rem ;
+}
+.cont {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sideCon {
+    background-color: rgba(225,225,225, 0.6);
+    height: 35rem;
+    width: 40rem;
+}
+.sideCon h1 {
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 4rem;
+    text-align: left;
+    margin: 2rem;
+}
+.cartD {
+    border-top: solid 1px;
+    border-bottom: solid 3px;
+    border-color: rgba(255, 255, 255, 0.15);   
+}
+.cartD h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.fix {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.btn1 {
+    width: 70%;
+    margin: auto;
+}
+
+.btn1 button {
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    background-color: #1e690b;
+    color: #fff;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: .03em;
+    padding: 15px 31px ;
+    font-size: 2rem;
+    transition: .5s ease;
+    text-transform: uppercase;
+    align-self: center;
+    position: relative;
+    left: 5%;
+}
+.btn1 button:hover {
+    background-color: #1e690ba1;
+}
+.cartf h1 {
+    font-size: 2rem;
+}
+.imgCon {
+    width: 80%;
+    margin: auto;
+}
+.imgCon img {
+    width: 100%;
+}
+.head h1{
+    margin-top: 15vh;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.521);
+
+}
+
+
+
+.shape{
+    margin: 2rem 0;
+    padding:0;
+    font-family: sans-serif;
+
+    width: 50rem;
+    padding: 40px;
+    position: relative;
+    background-color: rgba(10,10,10,0.9);
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.MTitle {
+    margin-left: 0 0 20px;
+    padding: 0;
+    position: relative;
+    font-family: 'Niconne', cursive;
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.637);
+    font-weight: bold;
+    font-size: 50%;
+    text-align: center;
+    top:0;
+}
+
+.shape .userbox{
+    position: relative;
+    margin-top: 20px;
+}
+
+.shape .userbox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 30px;
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+}
+
+.shape .userbox label {
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.shape .userbox input:valid ~label,
+.shape .userbox input:focus ~label{
+    font-size: 14px;
+    top: -20px;
+    color: rgb(188,253,76);
+}
+
+.shape a {
+    color: rgb(188,253,76);
+    font-size: 14px;
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    position: relative;
+}
+
+.shape a:hover{
+    background-color: rgba(188,253,76, 0.6);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(188,253,76, 0.8);
+    cursor: pointer;
+}
+
+.back {
+    background-color: transparent;
+    opacity: 0.4;
+    width:50%;
+    left: 50%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+    top:0;
+}
+
+@media screen and (max-width: 500px) {
+    .shape .userbox{ 
+        margin-bottom: 10px;
+    }
+}

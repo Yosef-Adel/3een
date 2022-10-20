@@ -1,0 +1,30 @@
+.spacing {
+    height: 30px;
+    background-color: rgba(10,10,10,0.9);
+    width: 100%;
+}
+
+.allproductContainer {
+padding-top: 10rem;
+}
+.allproductContainer h1 {
+    text-align: center;
+    color: rgb(247, 160, 84);
+    font-size: 5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .5s ease;
+    background-color: rgba(10,10,10,0.9);
+
+    position: relative;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+     flex-wrap: wrap;
+     width: 80%;
+     margin: auto;
+     margin-top: 5rem;
+     text-align: center;
+}

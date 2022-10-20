@@ -1,0 +1,33 @@
+.con {
+    text-align: center;
+    color: rgba(225, 225, 225, 0.637);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 2rem 2rem;
+    transition: .5s ease;
+    padding-bottom: 10rem;
+
+    background-color: rgba(10, 10, 10, 0.9);
+}
+.con p {
+    margin-bottom: 4rem;
+    color: rgb(247, 160, 84);
+}
+
+
+.shotsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.imgContainer {
+    width: 30rem;
+}
+.imgContainer img {
+    width: 100%;
+}
+

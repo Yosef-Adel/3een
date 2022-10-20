@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d8b355d.css",
+    "main.js": "/static/js/main.a660d831.js",
+    "static/media/shot2.jpg": "/static/media/shot2.9c056fe60e7ad22c0a5f.jpg",
+    "static/media/shot3.jpg": "/static/media/shot3.2237286c0ef49d9887fd.jpg",
+    "static/media/6.jpg": "/static/media/6.1c97348618efc8589e6f.jpg",
+    "static/media/2.jpg": "/static/media/2.b98d0a303a2fa62d0660.jpg",
+    "static/media/1.jpg": "/static/media/1.84db32b028501a24bbac.jpg",
+    "static/media/5.jpg": "/static/media/5.c1cf3de7c90585926113.jpg",
+    "static/media/3.jpg": "/static/media/3.94576e7ba9c2cdf4cc59.jpg",
+    "static/media/4.jpg": "/static/media/4.04893d8f8617a5d67210.jpg",
+    "static/media/0.jpg": "/static/media/0.7e66f8cb98b97972bdf8.jpg",
+    "static/media/shot1.jpg": "/static/media/shot1.bbe49bba251d28c32b09.jpg",
+    "static/media/Rev3.jpg": "/static/media/Rev3.b849ead913f97903f808.jpg",
+    "static/media/Rev2.jpg": "/static/media/Rev2.8c5f4a4d70caed677095.jpg",
+    "static/media/8Wggzk01.svg": "/static/media/8Wggzk01.e28afdea7ccdb97f35d0.svg",
+    "static/media/Rev1.jpg": "/static/media/Rev1.a01e19a917a7fcd2db38.jpg",
+    "static/media/logo3een.jpg": "/static/media/logo3een.990d6c5605ac02ed56ec.jpg",
+    "index.html": "/index.html",
+    "main.9d8b355d.css.map": "/static/css/main.9d8b355d.css.map",
+    "main.a660d831.js.map": "/static/js/main.a660d831.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d8b355d.css",
+    "static/js/main.a660d831.js"
+  ]
+}
